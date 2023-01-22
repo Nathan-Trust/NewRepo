@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 60rem;
+    width: 100%;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.p1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn1 {
+    width: 15rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    margin-left: 41%;
+}
+
+.fr {
+    background-color: white;
+    width: 32rem;
+    height: 30rem;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    box-shadow: -2px 2px 16px;
+    border-radius: .5rem;
+}
+
+.fb {
+    background-color: rgb(33, 33, 177);
+    width: 32rem;
+    height: 30rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    box-shadow: -2px 2px 16px;
+    border-radius: .5rem;
+}
+
+.btn8 {
+    width: 32rem;
+    height: 7rem;
+    margin-top: 3.5rem;
+    margin-left: 7rem;
+    box-shadow: -1px 1px 10px;
+    border: none;
+    border-radius: .5rem;
+    background-image: linear-gradient(to right, pink, hotpink);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: transparent;
+}
+
+#sign1 {
+    font-size: 3rem;
+}
+
+.btn8:hover {
+    background-color: rgb(148, 55, 105);
+}
+
+.btn8:active {
+    background-color: darkgray;
+}
+
+
+.btn6 {
+    width: 32rem;
+    height: 7rem;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    box-shadow: -1px 1px 10px;
+    background-color: white;
+    border: none;
+    border-radius: .5rem;
+    border: none;
+}
+
+.btn6:hover {
+    background-color: rgb(216, 214, 214);
+}
+
+.btn6:active {
+    background-color: darkgray;
+}
+
+#sign {
+    color: hotpink;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: lightgrey;
+}
+
+.btn1:active {
+    background-color: darkgray;
+}
+
+.fa-lock {
+    margin-right: 1rem;
+    color: aqua;
+}
+
+h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: aqua;
+}
+
+.fa-envelope {
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+#in1 {
+    width: 25rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.sec-div {
+    font-size: 3rem;
+    display: flex;
+}
+
+.fa-lock {
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+#in2 {
+    width: 25rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.third-div {
+    font-size: 3rem;
+    display: flex;
+}
+
+.btn2 {
+    margin-left: 10rem;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 11rem;
+    height: 4rem;
+    background-color: aqua;
+    border: none;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: -1px 1px 6px;
+}
+
+.btn2:hover {
+    background-color: rgb(87, 81, 81);
+}
+
+.btn2:active {
+    background-color: darkgray;
+}
+
+.fa-user {
+    margin-right: 1rem;
+    color: white;
+}
+
+#hh1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#email {
+    color: white;
+}
+
+#in3 {
+    width: 25rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid white;
+    background: none;
+}
+
+#in3::placeholder {
+    color: white;
+}
+
+.fourth-div {
+    font-size: 3rem;
+    display: flex;
+    color: white;
+}
+
+#fm {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+#in4 {
+    width: 25rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid white;
+    background: none;
+}
+
+#in4::placeholder {
+    color: white;
+}
+
+.fifth-div {
+    font-size: 3rem;
+    display: flex;
+}
+
+.btn3 {
+    margin-left: 10rem;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 11rem;
+    height: 4rem;
+    background-color: rgb(26, 26, 187);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: -1px 1px 10px;
+}
+
+.btn3:hover {
+    background-color: rgb(87, 81, 81);
+}
+
+.btn3:active {
+    background-color: darkgray;
+}
+
+#e1 {
+    color: lightslategrey;
+}
+
+#l1 {
+    color: lightslategrey;
+}
